@@ -1,0 +1,151 @@
+*{margin: 0%;}
+body{
+    background-color: #E8E5DE;
+    color: rgb(2, 3, 10);
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style:normal}
+  
+nav {
+    background-color: #0a0a0a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+nav .logo {
+    display: block;
+    border: none;
+    padding: 0;
+    margin-right: auto;
+}
+nav .logo img {
+    display: block;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.nav-links a {
+    color: #eeece8;
+    text-decoration: none;
+    font-size: medium;
+    border: none;
+    padding: 5px;
+}
+
+.nav-links a:hover {
+    color: #eeece8;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.nav-links a {
+    color: #eeece8;
+    text-decoration: none;
+    font-size: medium;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+} 
+.nav-links a:hover {
+    background-color: #eeece8;
+    color: #0a0a0a;
+    border-color: #eeece8;
+}
+.nav-links a:active {
+    background-color: #c9c5b8;
+    color: #0a0a0a;
+}
+
+
+a {
+    color: #E8E5DE;
+    font-size: large;
+}
+.white{
+    color: #06011a;
+     font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+#Papelito{
+    color: #03020c;
+font-size: medium;
+}
+.Advertencia{
+    color: #05050c;
+    font-size: small;
+    text-align: center;
+}
+#Video{
+    background-color: #0a0a0a;
+
+}
+.centro{
+    text-align: center;}
+
+footer{
+    font-size: small;
+    background-color: #0a0a0a;
+color: antiquewhite;}
+#Nombre-personaje{
+    color: aliceblue;
+    font-family: "Courier Prime", monospace;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+font-size: x-large;
+}
+#Nombre-actor{
+color: aliceblue;
+font-family: "Courier Prime", monospace;
+  font-weight: 200;
+  font-style: italic;
+  text-align: center;
+font-size: large;
+}
+#temporada{
+    color: aliceblue;
+     font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style:normal;
+  font-size: small;
+}
+#descripcion{
+    color: aliceblue;
+     font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style:normal;
+  font-size: medium;
+}
+#cantidad{
+    color: aliceblue;
+    font-family: "Courier Prime", monospace;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+font-size: xx-large;
+}
+#premio{
+    color: aliceblue;
+     font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style:normal;
+  font-size: x-large;
+  text-align: center;
+}

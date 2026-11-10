@@ -1,0 +1,26 @@
+.caja-curiosidades{
+display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px 10px;
+}
+.datos{
+background-color: black;
+    width: 30%;
+    min-width: 200px;
+    height: 450px;
+    border: solid 2px white;
+}
+.Logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px 10px;
+}
+.boton{
+    background-color: black;
+    width: 200px;
+    min-width: 100px;
+    height: 280px;
+    border: solid 2px white;
+}

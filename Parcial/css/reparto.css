@@ -1,0 +1,13 @@
+.caja-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px 10px;
+}
+.actor{
+    background-color: black;
+    width: 30%;
+    min-width: 400px;
+    height: 1000px;
+    border: solid 2px white;
+}
