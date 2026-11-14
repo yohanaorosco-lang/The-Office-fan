@@ -11,3 +11,7 @@
     height: 1000px;
     border: solid 2px white;
 }
+.video-musical {
+    aspect-ratio: 16/9;
+
+}
