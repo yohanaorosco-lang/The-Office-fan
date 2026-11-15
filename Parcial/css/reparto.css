@@ -1,16 +1,71 @@
-.caja-flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 10px 10px;
+.grilla{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "one two two three"
+    "four two two five"
+    "six seven eight nine"
+    "ten eleven twelve thirteen"
+    "fourteen fifteen sixteen seventeen"
+    ;
 }
+#uno{
+    grid-area: one;
+}
+#dos{
+    grid-area: two;
+}
+#tres{
+    grid-area: three;
+}
+#cuatro{
+    grid-area: four;
+}
+#cinco{
+    grid-area: five;
+}
+#seis{
+    grid-area: six;
+}
+#siete{
+    grid-area: seven;
+}
+#ocho{
+    grid-area: eight;
+}
+#nueve{
+    grid-area: nine;
+}
+#diez{
+    grid-area: ten;
+}
+#once{
+    grid-area: eleven;
+}
+#doce{
+    grid-area: twelve;
+}
+#trece{
+    grid-area: thirteen;
+}
+#catorce{
+    grid-area: fourteen;
+}
+#quince{
+    grid-area: fifteen;
+}
+#dieciseis{
+    grid-area: sixteen;
+}
+#diecisiete{
+    grid-area: seventeen;
+}
+
 .actor{
-    background-color: black;
-    width: 30%;
-    min-width: 400px;
-    height: 1000px;
-    border: solid 2px white;
+ 
 }
+
 .video-musical {
     aspect-ratio: 16/9;
 }
