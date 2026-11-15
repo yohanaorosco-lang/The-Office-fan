@@ -1,7 +1,7 @@
 .grilla{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
     grid-template-areas: 
     "one two two three"
     "four two two five"
@@ -9,6 +9,7 @@
     "ten eleven twelve thirteen"
     "fourteen fifteen sixteen seventeen"
     ;
+    gap: 20px;
 }
 #uno{
     grid-area: one;
@@ -62,10 +63,84 @@
     grid-area: seventeen;
 }
 
-.actor{
- 
+.actor img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+.actor:hover img {
+    transform: scale(1.06);
 }
 
 .video-musical {
     aspect-ratio: 16/9;
+}
+
+/*Flip*/
+.flip-toggle {
+    display: none;
+}
+
+.flip-card {
+    display: block;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.flip-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.7s ease;
+}
+
+.flip-toggle:checked + .flip-card .flip-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-front,
+.flip-back {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+}
+
+.flip-front {
+    overflow: hidden;
+}
+
+.flip-back {
+    transform: rotateY(180deg);
+    background: #0a0a0a;
+    color: #E8E5DE;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+.flip-front span,
+.flip-back span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: "Courier Prime", monospace;
+    font-size: 12px;
+    font-style: italic;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.flip-front span {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+}
+.flip-back span {
+    color: #E8E5DE;
+    margin-top: 15px;
 }
