@@ -373,3 +373,222 @@
     color: #e5cf83;
     line-height: 1.5;
 }
+/*Kelly*/
+#ocho .flip-back {
+    background: #2b1021;
+    padding: 18px;
+    gap: 9px;
+}
+
+#ocho .flip-back .nombre-personaje {
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: #ff83bd;
+}
+
+#ocho .flip-back .nombre-actor {
+    color: #f5b4d3;
+}
+
+#ocho .flip-back .temporada {
+    letter-spacing: 2px;
+}
+
+#ocho .flip-back .descripcion {
+    font-size: 12px;
+    line-height: 1.5;
+}
+#ocho .cita-personaje {
+    border: 2px solid #ff83bd;
+    padding: 12px 7px;
+    margin-top: 6px;
+    transform: rotate(-1deg);}
+
+#ocho .cita-personaje p {
+    font-size: 13px;
+    color: #ffacd1;
+    font-weight: bold;
+    line-height: 1.5;}
+#ocho .cita-personaje span {
+    color: #f5b4d3;
+}
+/*Ryan*/
+#nueve .flip-back {
+    background: #111820;
+    padding: 18px;
+    gap: 10px;
+}
+#nueve .flip-back .nombre-personaje {
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #8eb9d9;
+}
+#nueve .flip-back .nombre-actor {
+    color: #aab8c4;
+}
+#nueve .flip-back .temporada {
+    letter-spacing: 2px;
+}
+#nueve .flip-back .descripcion {
+    font-size: 12px;
+    line-height: 1.6;
+}
+#nueve .cita-personaje {
+    border-top: 1px solid #8eb9d9;
+    border-bottom: 1px solid #8eb9d9;
+    padding: 12px 5px;
+    margin-top: 8px;}
+#nueve .cita-personaje p {
+    font-size: 14px;
+    color: #8eb9d9;
+    font-style: italic;}
+#nueve .cita-personaje span {
+    color: #aab8c4;
+}
+/*Oscar*/
+#diez .flip-back .descripcion {
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+#diez .cita-personaje {
+    border-left: 2px solid #a9d0cc;
+    padding: 10px 12px;
+    margin-top: 8px;
+    text-align: left;
+}
+
+#diez .cita-personaje p {
+    font-size: 13px;
+    color: #a9d0cc;
+}
+
+#diez .cita-personaje span,
+#diez .cita-personaje small {
+    text-align: right;
+}
+#once .flip-back {
+    background: #302017;
+    padding: 18px;
+    gap: 10px;
+}
+
+#once .flip-back .nombre-personaje {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #e6b47d;
+}
+
+#once .flip-back .nombre-actor {
+    color: #d8c0a5;
+}
+
+#once .flip-back .temporada {
+    letter-spacing: 2px;
+}
+
+#once .flip-back .descripcion {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+#once .cita-personaje {
+    background: #493022;
+    border-radius: 4px;
+    padding: 12px 8px;
+    margin-top: 5px;
+}
+
+#once .cita-personaje p {
+    font-size: 13px;
+    color: #f0c28f;
+    line-height: 1.5;}
+
+#once .cita-personaje span {
+    color: #d8c0a5;}
+
+/*kEVIn*/
+#once .flip-back {
+    background: #302017;
+    padding: 18px;
+    gap: 10px;
+}
+
+#once .flip-back .nombre-personaje {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #e6b47d;
+}
+
+#once .flip-back .nombre-actor {
+    color: #d8c0a5;
+}
+
+#once .flip-back .temporada {
+    letter-spacing: 2px;
+}
+
+#once .flip-back .descripcion {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+#once .cita-personaje {
+    background: #493022;
+    border-radius: 4px;
+    padding: 12px 8px;
+    margin-top: 5px;
+}
+
+#once .cita-personaje p {
+    font-size: 13px;
+    color: #f0c28f;
+    line-height: 1.5;
+}
+
+#once .cita-personaje span {
+    color: #d8c0a5;
+}
+/*Stanley*/
+#doce .flip-back {
+    background: #291b1b;
+    padding: 18px;
+    gap: 10px;
+}
+
+#doce .flip-back .nombre-personaje {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #c58b83;
+}
+
+#doce .flip-back .nombre-actor {
+    color: #d5b7ad;
+}
+
+#doce .flip-back .temporada {
+    letter-spacing: 2px;
+}
+
+#doce .flip-back .descripcion {
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+#doce .cita-personaje {
+    border-top: 1px solid #c58b83;
+    border-bottom: 1px solid #c58b83;
+    padding: 12px 6px;
+    margin-top: 8px;
+}
+
+#doce .cita-personaje p {
+    font-size: 16px;
+    color: #e2b2a9;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#doce .cita-personaje span {
+    color: #d5b7ad;
+}
