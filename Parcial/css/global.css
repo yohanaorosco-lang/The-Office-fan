@@ -93,8 +93,22 @@ font-size: medium;
     background-color: #0a0a0a;
 
 }
-.centro{
-    text-align: center;}
+.video-portada {
+    width: 100%;
+    background-color: #0a0a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0;
+    box-sizing: border-box;
+}
+
+.video-portada video {
+    width: 55%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+}
 
 footer{
     font-size: small;
@@ -149,3 +163,18 @@ font-size: xx-large;
   font-size: x-large;
   text-align: center;
 }
+footer {
+    background-color: #0a0a0a;
+    color: #E8E5DE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 25px;
+    font-size: 11px;
+    box-sizing: border-box;}
+
+footer p {
+    margin: 0;}
+footer em {
+    font-family: "Courier Prime", monospace;
+    margin-left: 4px; }

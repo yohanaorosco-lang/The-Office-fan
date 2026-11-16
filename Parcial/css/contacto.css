@@ -1,0 +1,176 @@
+.contacto-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 50px;
+    align-items: stretch;
+}
+.info-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.bloque-info h1,
+.bloque-info h2,
+.formulario-contacto h1 {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.introduccion {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #55534e;
+}
+.lista-enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.enlace-info {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background-color: #0a0a0a;
+    color: #E8E5DE;
+    text-decoration: none;
+    padding: 12px 16px;
+    border: 1px solid #0a0a0a;
+    transition: all 0.3s ease;
+}
+.enlace-info img {
+    width: 48px;
+    height: 38px;
+    object-fit: contain;
+}
+.enlace-info span {
+    font-size: 14px;
+}
+
+.enlace-info .flecha {
+    margin-left: auto;
+    font-size: 18px;
+}
+
+.enlace-info:hover {
+    background-color: #E8E5DE;
+    color: #0a0a0a;
+    transform: translateX(5px);
+}
+.lista-plataformas {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.lista-plataformas a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #d0ccc3;
+    transition: transform 0.3s ease;
+}
+.lista-plataformas img {
+    width: 75px;
+    height: 35px;
+    object-fit: contain;
+}
+.lista-plataformas a:hover {
+    transform: scale(1.08);
+}
+.nota-plataformas {
+    font-size: 11px;
+    color: #77736b;
+    margin-top: 12px;
+}
+.formulario-contacto {
+    background-color: #0a0a0a;
+    color: #E8E5DE;
+    padding: 40px;
+    border: 1px solid #0a0a0a;
+}
+
+.formulario-contacto h1 {
+    font-size: 34px;
+    margin-bottom: 12px;
+}
+.formulario-contacto .introduccion {
+    color: #bdb9b0;
+    margin-bottom: 30px;
+}
+#form-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;}
+.campo label {
+    font-family: "Courier Prime", monospace;
+    font-size: 15px;
+}
+.campo input,
+.campo textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #77736b;
+    padding: 12px 5px;
+    color: #E8E5DE;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+.campo input:focus,
+.campo textarea:focus {
+    border-bottom: 1px solid #E8E5DE;
+}
+.campo input::placeholder,
+.campo textarea::placeholder {
+    color: #88847c;
+}
+.campo textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+.contador {
+    text-align: right;
+    font-size: 11px;
+    color: #aaa69e;
+}
+#form-contacto button {
+    background-color: #E8E5DE;
+    color: #0a0a0a;
+    border: 1px solid #E8E5DE;
+    padding: 13px 18px;
+    font-family: "Courier Prime", monospace;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-self: center;
+}
+
+#form-contacto button:hover {
+    background-color: transparent;
+    color: #E8E5DE;
+}
+@media (max-width: 800px) {
+    .contacto-contenedor {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 0 25px;
+        margin: 35px auto;
+    }
+
+    .formulario-contacto {
+        padding: 30px;
+    }
+
+}
