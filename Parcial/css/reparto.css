@@ -76,11 +76,6 @@
 .actor:hover img {
     transform: scale(1.06);
 }
-
-.video-musical {
-    aspect-ratio: 16/9;
-}
-
 /*Flip*/
 .flip-toggle {
     display: none;

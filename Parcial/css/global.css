@@ -109,6 +109,9 @@ font-size: medium;
     height: auto;
     display: block;
 }
+.video-musical {
+    aspect-ratio: 16/9;
+}
 
 footer{
     font-size: small;
