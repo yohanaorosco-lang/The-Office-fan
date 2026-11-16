@@ -1,7 +1,7 @@
-.grilla{
+.grilla {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(5, minmax(300px, auto));
     grid-template-areas: 
     "one two two three"
     "four two two five"
@@ -67,9 +67,12 @@
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
+    background: #0a0a0a;
     transition: transform 0.4s ease;
 }
+
 .actor:hover img {
     transform: scale(1.06);
 }
@@ -112,7 +115,9 @@
 
 .flip-front {
     overflow: hidden;
+    background: #0a0a0a;
 }
+
 
 .flip-back {
     transform: rotateY(180deg);
@@ -121,11 +126,19 @@
     padding: 20px;
     box-sizing: border-box;
     overflow-y: auto;
-
+    scrollbar-width: none;
+    -ms-overflow-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 12px;
+}
+
+.flip-back::-webkit-scrollbar {
+    display: none;
+}
+.flip-back::-webkit-scrollbar {
+    display: none;
 }
 
 .flip-back .nombre-personaje {
