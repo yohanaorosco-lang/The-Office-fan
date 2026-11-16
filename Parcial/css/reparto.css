@@ -121,6 +121,42 @@
     padding: 20px;
     box-sizing: border-box;
     overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.flip-back .nombre-personaje {
+    font-family: "Courier Prime", monospace;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.flip-back .nombre-actor {
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    font-style: italic;
+    color: #bdbdbd;
+}
+
+.flip-back .temporada {
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #bdbdbd;
+}
+
+.flip-back .descripcion {
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+    text-align: center;
 }
 .flip-front span,
 .flip-back span {
@@ -143,4 +179,197 @@
 .flip-back span {
     color: #E8E5DE;
     margin-top: 15px;
+}
+.cita-personaje {
+    border-top: 1px solid #666;
+    padding-top: 12px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.cita-personaje p {
+    font-family: "Courier Prime", monospace;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.cita-personaje span {
+    display: block;
+    font-size: 11px;
+    color: #bdbdbd;
+    margin-top: 8px;
+}
+
+.cita-personaje small {
+    display: block;
+    font-size: 9px;
+    color: #888;
+    margin-top: 5px;
+}
+
+/*Michael Scott*/
+#dos .flip-back {
+    padding: 35px;
+    gap: 18px;
+}
+
+#dos .flip-back .nombre-personaje {
+    font-size: 38px;
+    letter-spacing: 3px;
+}
+
+#dos .flip-back .nombre-actor {
+    font-size: 19px;
+}
+
+#dos .flip-back .temporada {
+    font-size: 13px;
+}
+
+#dos .flip-back .descripcion {
+    font-size: 16px;
+    line-height: 1.8;
+}
+#dos .numero-personaje {
+    font-family: "Courier Prime", monospace;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #bdbdbd;
+}
+
+#dos .frase-michael {
+    font-family: "Courier Prime", monospace;
+    font-size: 19px;
+    text-align: center;
+    font-style: italic;
+    color: #E8E5DE;
+}
+/*Jim diferencias*/
+#tres .cita-personaje {
+    border-top: none;
+    border-left: 2px solid #E8E5DE;
+    padding: 8px 12px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#tres .cita-personaje p {
+    font-size: 14px;
+}
+
+#tres .cita-personaje span,
+#tres .cita-personaje small {
+    text-align: right;
+}
+/*Angelita*/
+#cuatro .flip-back .nombre-personaje {
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+#cuatro .flip-back .temporada {
+    letter-spacing: 3px;
+}
+#cuatro .flip-back .descripcion {
+    font-size: 12px;
+    line-height: 1.5;
+}
+#cuatro .cita-personaje {
+    border-top: 1px solid #E8E5DE;
+    border-bottom: 1px solid #E8E5DE;
+    padding: 12px 5px;
+    margin-top: 8px;
+}
+/*Pam*/
+#cinco .flip-back {
+    padding: 25px;
+    gap: 13px;
+    background: #171613;
+}
+
+#cinco .flip-back .nombre-personaje {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#cinco .flip-back .nombre-actor {
+    color: #c9b9a8;
+}
+
+#cinco .flip-back .descripcion {
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+#cinco .cita-personaje {
+    border-top: 1px solid #a99580;
+    padding-top: 14px;
+    margin-top: 5px;
+}
+#cinco .cita-personaje p {
+    font-size: 14px;
+    color: #e8d8c7;}
+/*Andyy*/
+#seis .flip-back {
+    background: #171717;
+    padding: 18px;
+    gap: 9px;}
+#seis .flip-back .nombre-personaje {
+    font-size: 21px;
+    letter-spacing: 1px;}
+
+#seis .flip-back .nombre-actor {
+    color: #c9a7d8; }
+
+#seis .flip-back .temporada {
+    letter-spacing: 2px;}
+#seis .flip-back .descripcion {
+    font-size: 12px;
+    line-height: 1.5;
+}
+#seis .cita-personaje {
+    border: 1px solid #c9a7d8;
+    padding: 10px 5px;
+    margin-top: 5px;
+}
+#seis .cita-personaje p {
+    font-size: 14px;
+    color: #c9a7d8;
+}
+/*Erin*/
+#siete .flip-back {
+    background: #24221b;
+    padding: 18px;
+    gap: 10px;
+}
+
+#siete .flip-back .nombre-personaje {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+#siete .flip-back .nombre-actor {
+    color: #e5cf83;
+}
+
+#siete .flip-back .temporada {
+    letter-spacing: 2px;
+}
+
+#siete .flip-back .descripcion {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+#siete .cita-personaje {
+    border: 1px dashed #e5cf83;
+    padding: 10px 6px;
+    margin-top: 5px;
+}
+
+#siete .cita-personaje p {
+    font-size: 12px;
+    color: #e5cf83;
+    line-height: 1.5;
 }
