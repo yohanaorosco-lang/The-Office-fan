@@ -592,3 +592,178 @@
 #doce .cita-personaje span {
     color: #d5b7ad;
 }
+/*Phyllus*/
+#trece .flip-back {
+    background: #302124;
+    padding: 18px;
+    gap: 10px;
+}
+
+#trece .flip-back .nombre-personaje {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #d9a9b4; }
+
+#trece .flip-back .nombre-actor {
+    color: #dfc5c8;}
+#trece .flip-back .temporada {
+    letter-spacing: 2px;}
+#trece .flip-back .descripcion {
+    font-size: 12px;
+    line-height: 1.6;
+}
+#trece .cita-personaje {
+    border-left: 2px solid #d9a9b4;
+    padding: 10px 12px;
+    margin-top: 8px;
+    text-align: left;
+}
+#trece .cita-personaje p {
+    font-size: 13px;
+    color: #e5b9c3;
+    line-height: 1.5;}
+#trece .cita-personaje span,
+#trece .cita-personaje small {
+    text-align: right;
+}
+/*Merediht*/
+#catorce .flip-back {
+    background: #211619;
+    padding: 18px;
+    gap: 9px;
+}
+#catorce .flip-back .nombre-personaje {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #d66b6b;
+}
+#catorce .flip-back .nombre-actor {
+    color: #c9a5a5;
+}
+#catorce .flip-back .temporada {
+    letter-spacing: 2px;}
+#catorce .flip-back .descripcion {
+    font-size: 12px;
+    line-height: 1.5; }
+#catorce .cita-personaje {
+    border: 1px dashed #d66b6b;
+    padding: 10px 7px;
+    margin-top: 6px;  }
+#catorce .cita-personaje p {
+    font-size: 12px;
+    color: #e18a8a;
+    line-height: 1.5;
+    font-style: italic; }
+#catorce .cita-personaje span {
+    color: #c9a5a5;
+}
+/*Creed*/
+#quince .flip-back {
+    background: #1b2119;
+    padding: 18px;
+    gap: 10px;
+}
+#quince .flip-back .nombre-personaje {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #a5b77b; 
+}
+
+#quince .flip-back .nombre-actor {
+    color: #b9c1a7; }
+#quince .flip-back .temporada {
+    letter-spacing: 2px;
+}
+
+#quince .flip-back .descripcion {
+    font-size: 12px;
+    line-height: 1.5;
+}
+#quince .cita-personaje {
+    border: 1px dashed #a5b77b;
+    padding: 11px 8px;
+    margin-top: 6px;
+    transform: rotate(1deg);
+}
+#quince .cita-personaje p {
+    font-size: 13px;
+    color: #c0d18e;
+    line-height: 1.5;
+    font-style: italic;}
+#quince .cita-personaje span {
+    color: #b9c1a7;
+}
+/*Darrl*/
+#dieciseis .flip-back {
+    background: #17272c;
+    padding: 18px;
+    gap: 10px;}
+
+#dieciseis .flip-back .nombre-personaje {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #e39b65;}
+
+#dieciseis .flip-back .nombre-actor {
+    color: #b6c7c9;}
+
+#dieciseis .flip-back .temporada {
+    letter-spacing: 2px;}
+
+#dieciseis .flip-back .descripcion {
+    font-size: 12px;
+    line-height: 1.6;}
+
+#dieciseis .cita-personaje {
+    border-left: 3px solid #e39b65;
+    padding: 10px 12px;
+    margin-top: 8px;
+    text-align: left;}
+#dieciseis .cita-personaje p {
+    font-size: 13px;
+    color: #eab184;
+    line-height: 1.5;}
+#dieciseis .cita-personaje span,
+#dieciseis .cita-personaje small {
+    text-align: right;
+}
+/*TOBY*/
+#diecisiete .flip-back {
+    background: #252b30;
+    padding: 18px;
+    gap: 10px;
+}
+
+#diecisiete .flip-back .nombre-personaje {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #b9c6ce;
+}
+
+#diecisiete .flip-back .nombre-actor {
+    color: #aab5bb;
+}
+
+#diecisiete .flip-back .temporada {
+    letter-spacing: 2px;
+    color: #9ba8af;}
+
+#diecisiete .flip-back .descripcion {
+    font-size: 12px;
+    line-height: 1.6;}
+
+#diecisiete .cita-personaje {
+    border: 1px solid #788b96;
+    background: #303a41;
+    padding: 12px 8px;
+    margin-top: 8px;}
+
+#diecisiete .cita-personaje p {
+    font-size: 13px;
+    color: #c2d0d7;
+    line-height: 1.5;
+    font-style: italic;}
+#diecisiete .cita-personaje span,
+#diecisiete .cita-personaje small {
+    color: #aab5bb;
+}
