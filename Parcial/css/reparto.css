@@ -130,9 +130,6 @@
 }
 
 .flip-back::-webkit-scrollbar {
-    display: none;
-}
-.flip-back::-webkit-scrollbar {
     display: none;}
 
 .flip-back .nombre-personaje {
@@ -471,48 +468,8 @@
 
 #diez .cita-personaje span,
 #diez .cita-personaje small {
-    text-align: right;
-}
-#once .flip-back {
-    background: #302017;
-    padding: 18px;
-    gap: 10px;
-}
-
-#once .flip-back .nombre-personaje {
-    font-size: 22px;
-    letter-spacing: 1px;
-    color: #e6b47d;
-}
-
-#once .flip-back .nombre-actor {
-    color: #d8c0a5;
-}
-
-#once .flip-back .temporada {
-    letter-spacing: 2px;
-}
-
-#once .flip-back .descripcion {
-    font-size: 12px;
-    line-height: 1.5;
-}
-
-#once .cita-personaje {
-    background: #493022;
-    border-radius: 4px;
-    padding: 12px 8px;
-    margin-top: 5px;
-}
-
-#once .cita-personaje p {
-    font-size: 13px;
-    color: #f0c28f;
-    line-height: 1.5;}
-
-#once .cita-personaje span {
-    color: #d8c0a5;}
-
+    text-align: right;}
+    
 /*kEVIn*/
 #once .flip-back {
     background: #302017;
