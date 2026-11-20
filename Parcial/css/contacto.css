@@ -51,8 +51,7 @@
 }
 
 .enlace-info .flecha {
-    margin-left: auto;
-    font-size: 18px;
+    display: none;
 }
 
 .enlace-info:hover {
@@ -160,9 +159,9 @@
     background-color: transparent;
     color: #E8E5DE;
 }
-@media (max-width: 800px) {
+
     .contacto-contenedor {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 40px;
         padding: 0 25px;
         margin: 35px auto;
@@ -171,5 +170,3 @@
     .formulario-contacto {
         padding: 30px;
     }
-
-}
