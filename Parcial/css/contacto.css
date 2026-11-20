@@ -144,7 +144,7 @@
     font-size: 11px;
     color: #aaa69e;
 }
-#form-contacto button {
+#form-contacto input[type="submit"] {
     background-color: #E8E5DE;
     color: #0a0a0a;
     border: 1px solid #E8E5DE;
@@ -156,7 +156,7 @@
     align-self: center;
 }
 
-#form-contacto button:hover {
+#form-contacto input[type="submit"]:hover {
     background-color: transparent;
     color: #E8E5DE;
 }

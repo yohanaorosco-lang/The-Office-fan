@@ -69,8 +69,7 @@ nav .logo img {
 }
 
 
-a {
-    color: #E8E5DE;
+a {color: #E8E5DE;
     font-size: large;
 }
 .white{
@@ -176,8 +175,9 @@ footer {
     font-size: 11px;
     box-sizing: border-box;}
 
-footer p {
-    margin: 0;}
+footer p {margin: 0;
+}
+
 footer em {
     font-family: "Courier Prime", monospace;
     margin-left: 4px; }

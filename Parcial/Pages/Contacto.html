@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-<link rel="icon" type="Logo" href="../Img/The Office-Logo letras.jpg">
+<link rel="icon" type="image/jpeg" href="../Img/The Office-Logo letras.jpg"> 
 </head>
 
 <body>
@@ -33,7 +33,6 @@
     <h1>Encontranos en</h1>
     <p class="introduccion">
     Seguí conectado con el universo de The Office.</p>
-
     <div class="lista-enlaces">
     <a href="https://www.youtube.com/@TheOffice" target="_blank" rel="noopener noreferrer" class="enlace-info">
     <img src="../Img/The Office-Logo letras.jpg" alt="YouTube The Office">
@@ -90,20 +89,11 @@
     <textarea id="mensaje" name="mensaje"
     placeholder="Escribí tu mensaje..."
     maxlength="500" required></textarea>
-    <div class="contador">
-    <span id="cantidad-caracteres">0</span> / 500 caracteres
     </div>
-    </div>
-    <button type="submit">Enviar mensaje ↗</button>
+    <input type="submit" value="Enviar mensaje">
     </form>
     </section>
 </main>
-<script>
-    const mensaje = document.getElementById("mensaje");
-    const contador = document.getElementById("cantidad-caracteres");
-    mensaje.addEventListener("input", function () {
-        contador.textContent = mensaje.value.length;});
-</script>
     <footer>
     <p>The Office © NBCUniversal.</p>
     <p> © 2026 — Sitio realizado con fines educativos. No oficial.
