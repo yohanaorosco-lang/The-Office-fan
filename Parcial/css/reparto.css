@@ -133,15 +133,13 @@
     display: none;
 }
 .flip-back::-webkit-scrollbar {
-    display: none;
-}
+    display: none;}
 
 .flip-back .nombre-personaje {
     font-family: "Courier Prime", monospace;
     font-size: 23px;
     text-align: center;
-    text-transform: uppercase;
-}
+    text-transform: uppercase;}
 
 .flip-back .nombre-actor {
     font-family: "Nunito", sans-serif;
