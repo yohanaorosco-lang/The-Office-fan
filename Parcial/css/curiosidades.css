@@ -11,18 +11,22 @@ background-color: black;
     height: 450px;
     border: solid 2px white;
 }
-.Logo{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 10px 10px;
-}
-.boton{
-    background-color: black;
-    width: 200px;
-    min-width: 100px;
-    height: 280px;
-    border: solid 2px white;
-}
 .centro{
     text-align: center;}
+    .cantidad{
+    color: #E8E5DE;
+    font-family: "Courier Prime", monospace;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+font-size: xx-large;
+}
+.premio{
+    color: #E8E5DE;
+     font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style:normal;
+  font-size: x-large;
+  text-align: center;
+}

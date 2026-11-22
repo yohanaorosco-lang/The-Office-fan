@@ -732,3 +732,6 @@ position: relative;
 #diecisiete .cita-personaje small {
     color: #aab5bb;
 }
+.video-musical {
+    aspect-ratio: 16/9;
+}

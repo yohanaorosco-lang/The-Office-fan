@@ -1,18 +1,18 @@
-*{margin: 0%;
+*{margin: 0;
     padding: 0;
 }
 
-#Papelito{
-padding: 0 100px 30px;
+.papelito {
+    padding: 0 100px 30px;
+    color: #03020c;
+    font-size: medium;
 }
 
 body{
     background-color: #E8E5DE;
     color: rgb(2, 3, 10);
     font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style:normal}
+  font-weight: 200;}
   
 nav {
     background-color: #0a0a0a;
@@ -62,98 +62,11 @@ nav .logo img {
     color: #0a0a0a;
 }
 
-a {color: #E8E5DE;
-    font-size: large;
-}
 .white{
     color: #06011a;
      font-family: "Courier Prime", monospace;
   font-weight: 400;
   font-style: normal;
-  text-align: center;
-}
-#Papelito{
-    color: #03020c;
-font-size: medium;
-}
-.Advertencia{
-    color: #05050c;
-    font-size: small;
-    text-align: center;
-}
-
-.video-portada {
-    width: 100%;
-    background-color: #0a0a0a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 35px 0;
-    box-sizing: border-box;
-}
-
-.video-portada video {
-    width: 55%;
-    max-width: 1000px;
-    height: auto;
-    display: block;
-}
-.video-musical {
-    aspect-ratio: 16/9;
-}
-
-footer{
-    font-size: small;
-    background-color: #0a0a0a;
-color: antiquewhite;}
-
-#Nombre-personaje{
-    color: aliceblue;
-    font-family: "Courier Prime", monospace;
-  font-weight: 200;
-  font-style: normal;
-  text-align: center;
-font-size: x-large;
-}
-#Nombre-actor{
-color: aliceblue;
-font-family: "Courier Prime", monospace;
-  font-weight: 200;
-  font-style: italic;
-  text-align: center;
-font-size: large;
-}
-#temporada{
-    color: aliceblue;
-     font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style:normal;
-  font-size: small;
-}
-#descripcion{
-    color: aliceblue;
-     font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style:normal;
-  font-size: medium;
-}
-#cantidad{
-    color: aliceblue;
-    font-family: "Courier Prime", monospace;
-  font-weight: 200;
-  font-style: normal;
-  text-align: center;
-font-size: xx-large;
-}
-#premio{
-    color: aliceblue;
-     font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style:normal;
-  font-size: x-large;
   text-align: center;
 }
 footer {
@@ -166,8 +79,7 @@ footer {
     font-size: 11px;
     box-sizing: border-box;}
 
-footer p {margin: 0;
-}
+footer p {margin: 0;}
 
 footer em {
     font-family: "Courier Prime", monospace;
