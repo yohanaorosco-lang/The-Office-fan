@@ -1,96 +1,102 @@
 .grilla {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(5, minmax(300px, auto));
-    grid-template-areas: 
-    "one two two three"
-    "four two two five"
-    "six seven eight nine"
-    "ten eleven twelve thirteen"
-    "fourteen fifteen sixteen seventeen"
-    ;
-    gap: 20px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: repeat(5, minmax(300px, auto));
+grid-template-areas: 
+"one two two three"
+"four two two five"
+"six seven eight nine"
+"ten eleven twelve thirteen"
+"fourteen fifteen sixteen seventeen";
+gap: 20px;
 }
 #uno{
-    grid-area: one;
+grid-area: one;
 }
 #dos{
-    grid-area: two;
+grid-area: two;
 }
 #tres{
-    grid-area: three;
+grid-area: three;
 }
 #cuatro{
-    grid-area: four;
+grid-area: four;
 }
 #cinco{
-    grid-area: five;
+grid-area: five;
 }
 #seis{
-    grid-area: six;
+grid-area: six;
 }
 #siete{
-    grid-area: seven;
+grid-area: seven;
 }
 #ocho{
-    grid-area: eight;
+grid-area: eight;
 }
 #nueve{
-    grid-area: nine;
+grid-area: nine;
 }
 #diez{
-    grid-area: ten;
+grid-area: ten;
 }
 #once{
-    grid-area: eleven;
+grid-area: eleven;
 }
 #doce{
-    grid-area: twelve;
+grid-area: twelve;
 }
 #trece{
-    grid-area: thirteen;
+grid-area: thirteen;
 }
 #catorce{
-    grid-area: fourteen;
+grid-area: fourteen;
 }
 #quince{
-    grid-area: fifteen;
+grid-area: fifteen;
 }
 #dieciseis{
-    grid-area: sixteen;
+grid-area: sixteen;
 }
 #diecisiete{
-    grid-area: seventeen;
+grid-area: seventeen;
 }
 
 .actor img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
-    background: #0a0a0a;
-    transition: transform 0.4s ease;
+display: block;
+width: 100%;
+height: 100%;
+object-fit: contain;
+object-position: center;
+background: #0a0a0a;
+transition: transform 0.4s ease;
 }
 
 .actor:hover img {
-    transform: scale(1.06);
+transform: scale(1.06);
 }
-/*Flip*/
+
 .flip-toggle {
-    display: none;
+position: absolute;
+opacity: 0;
+width: 1px;
+height: 1px;
+}
+.flip-toggle:focus-visible + .flip-card {
+outline: 2px solid #E8E5DE;
+outline-offset: 4px;
 }
 
 .flip-card {
-    display: block;
-    width: 100%;
-    height: 100%;
-    perspective: 1000px;
-    cursor: pointer;
+display: block;
+width: 100%;
+height: 100%;
+perspective: 1000px;
+cursor: pointer;
 }
 
 .flip-inner {
-    position: relative;
+position: relative;
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
@@ -121,16 +127,11 @@
     padding: 20px;
     box-sizing: border-box;
     overflow-y: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 12px;
 }
-
-.flip-back::-webkit-scrollbar {
-    display: none;}
 
 .flip-back .nombre-personaje {
     font-family: "nunito";
@@ -161,8 +162,8 @@
     line-height: 1.6;
     text-align: center;
 }
-.flip-front span,
-.flip-back span {
+.flip-front .indicacion-flip,
+.flip-back .indicacion-flip {
     display: block;
     width: 100%;
     text-align: center;
@@ -172,14 +173,15 @@
     padding: 10px 0;
     box-sizing: border-box;
 }
-.flip-front span {
+.flip-front .indicacion-flip {
     position: absolute;
     bottom: 10px;
     left: 0;
     color: white;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0,0,0,.6);
 }
-.flip-back span {
+
+.flip-back .indicacion-flip {
     color: #E8E5DE;
     margin-top: 15px;
 }

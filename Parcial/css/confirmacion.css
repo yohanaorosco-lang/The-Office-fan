@@ -1,0 +1,55 @@
+.confirmacion {
+max-width: 1150px;
+margin: 55px auto;
+padding: 0 50px;
+flex: 1;
+}
+
+.encabezado-confirmacion {
+padding-bottom: 20px;
+border-bottom: 1px solid #0a0a0a;
+}
+
+.encabezado-confirmacion p {
+font-family: "Courier Prime", monospace;
+font-size: 12px;
+letter-spacing: 2px;
+}
+
+.contenido-confirmacion {
+text-align: center;
+padding: 55px 0;
+}
+
+.contenido-confirmacion h1 {
+font-family: "Courier Prime", monospace; 
+font-size: 65px;
+font-weight: 400;
+margin-bottom: 15px;
+}
+
+.contenido-confirmacion h2 {
+font-family: "Courier Prime", monospace;
+font-size: 22px;
+font-weight: 400;
+margin-bottom: 25px;}
+
+.imagen-erin img {
+width: 280px;
+height: auto;
+display: block;
+margin: 0 auto 25px;}
+
+.contenido-confirmacion p {
+font-size: 15px;
+margin-bottom: 30px;}
+
+.volver-inicio {
+display: inline-block;
+background-color: #0a0a0a;
+color: #E8E5DE;
+padding: 12px 22px;
+text-decoration: none;
+font-family: "Courier Prime", monospace;
+font-size: 13px;
+}
