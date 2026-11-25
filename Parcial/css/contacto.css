@@ -159,3 +159,19 @@
     background-color: transparent;
     color: #E8E5DE;
 }
+/*<form action="">
+        <textarea oninput="contarCaracteres()"name="" id="comentario" maxlength="500"></textarea>
+        <input type="number" id="contador" class="contador" value="0" maxlength="3" readonly>
+    </form>
+    <script src="script.js"></script>
+    <form action="">
+        <textarea oninput="contarCaracteres()" name="" id="comentario" maxlength="500"></textarea>
+        <input type="number" id="contador" class="contador" value="0" maxlength="3" readonly>
+    </form>
+    <script src="script.js"></script>
+    function contarCaracteres(){
+    var textArea = document.getElementById("comentario");
+    var inputContador = document.getElementById("contador");
+    inputContador.value = textArea.value.length;
+}
+nombreSpan.textContent =*/

@@ -1,109 +1,132 @@
 .grilla {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: repeat(5, minmax(300px, auto));
-grid-template-areas: 
-"one two two three"
-"four two two five"
-"six seven eight nine"
-"ten eleven twelve thirteen"
-"fourteen fifteen sixteen seventeen";
-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, minmax(300px, auto));
+    grid-template-areas:
+        "one two two three"
+        "four two two five"
+        "six seven eight nine"
+        "ten eleven twelve thirteen"
+        "fourteen fifteen sixteen seventeen";
+    gap: 20px;
 }
-#uno{
-grid-area: one;
+
+/* Para acomodar las grillas para el tel: 
+@media (width < 1000px){
+template........
+}*/
+
+#uno {
+    grid-area: one;
 }
-#dos{
-grid-area: two;
+
+#dos {
+    grid-area: two;
 }
-#tres{
-grid-area: three;
+
+#tres {
+    grid-area: three;
 }
-#cuatro{
-grid-area: four;
+
+#cuatro {
+    grid-area: four;
 }
-#cinco{
-grid-area: five;
+
+#cinco {
+    grid-area: five;
 }
-#seis{
-grid-area: six;
+
+#seis {
+    grid-area: six;
 }
-#siete{
-grid-area: seven;
+
+#siete {
+    grid-area: seven;
 }
-#ocho{
-grid-area: eight;
+
+#ocho {
+    grid-area: eight;
 }
-#nueve{
-grid-area: nine;
+
+#nueve {
+    grid-area: nine;
 }
-#diez{
-grid-area: ten;
+
+#diez {
+    grid-area: ten;
 }
-#once{
-grid-area: eleven;
+
+#once {
+    grid-area: eleven;
 }
-#doce{
-grid-area: twelve;
+
+#doce {
+    grid-area: twelve;
 }
-#trece{
-grid-area: thirteen;
+
+#trece {
+    grid-area: thirteen;
 }
-#catorce{
-grid-area: fourteen;
+
+#catorce {
+    grid-area: fourteen;
 }
-#quince{
-grid-area: fifteen;
+
+#quince {
+    grid-area: fifteen;
 }
-#dieciseis{
-grid-area: sixteen;
+
+#dieciseis {
+    grid-area: sixteen;
 }
-#diecisiete{
-grid-area: seventeen;
+
+#diecisiete {
+    grid-area: seventeen;
 }
 
 .actor img {
-display: block;
-width: 100%;
-height: 100%;
-object-fit: contain;
-object-position: center;
-background: #0a0a0a;
-transition: transform 0.4s ease;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    background: #0a0a0a;
+    transition: transform 0.4s ease;
 }
 
 .actor:hover img {
-transform: scale(1.06);
+    transform: scale(1.06);
 }
 
 .flip-toggle {
-position: absolute;
-opacity: 0;
-width: 1px;
-height: 1px;
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
 }
-.flip-toggle:focus-visible + .flip-card {
-outline: 2px solid #E8E5DE;
-outline-offset: 4px;
+
+.flip-toggle:focus-visible+.flip-card {
+    outline: 2px solid #E8E5DE;
+    outline-offset: 4px;
 }
 
 .flip-card {
-display: block;
-width: 100%;
-height: 100%;
-perspective: 1000px;
-cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+    cursor: pointer;
 }
 
 .flip-inner {
-position: relative;
+    position: relative;
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 0.7s ease;
 }
 
-.flip-toggle:checked + .flip-card .flip-inner {
+.flip-toggle:checked+.flip-card .flip-inner {
     transform: rotateY(180deg);
 }
 
@@ -137,7 +160,8 @@ position: relative;
     font-family: "nunito";
     font-size: 23px;
     text-align: center;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+}
 
 .flip-back .nombre-actor {
     font-family: "Nunito", sans-serif;
@@ -162,6 +186,7 @@ position: relative;
     line-height: 1.6;
     text-align: center;
 }
+
 .flip-front .indicacion-flip,
 .flip-back .indicacion-flip {
     display: block;
@@ -173,18 +198,20 @@ position: relative;
     padding: 10px 0;
     box-sizing: border-box;
 }
+
 .flip-front .indicacion-flip {
     position: absolute;
     bottom: 10px;
     left: 0;
     color: white;
-    background: rgba(0,0,0,.6);
+    background: rgba(0, 0, 0, .6);
 }
 
 .flip-back .indicacion-flip {
     color: #E8E5DE;
     margin-top: 15px;
 }
+
 .cita-personaje {
     border-top: 1px solid #666;
     padding-top: 12px;
@@ -236,6 +263,7 @@ position: relative;
     font-size: 16px;
     line-height: 1.8;
 }
+
 #dos .numero-personaje {
     font-family: "nunito";
     font-size: 11px;
@@ -251,6 +279,7 @@ position: relative;
     font-style: italic;
     color: #E8E5DE;
 }
+
 /*Jim diferencias*/
 #tres .cita-personaje {
     border-top: none;
@@ -268,24 +297,29 @@ position: relative;
 #tres .cita-personaje small {
     text-align: right;
 }
+
 /*Angelita*/
 #cuatro .flip-back .nombre-personaje {
     font-size: 22px;
     letter-spacing: 2px;
 }
+
 #cuatro .flip-back .temporada {
     letter-spacing: 3px;
 }
+
 #cuatro .flip-back .descripcion {
     font-size: 12px;
     line-height: 1.5;
 }
+
 #cuatro .cita-personaje {
     border-top: 1px solid #E8E5DE;
     border-bottom: 1px solid #E8E5DE;
     padding: 12px 5px;
     margin-top: 8px;
 }
+
 /*Pam*/
 #cinco .flip-back {
     padding: 25px;
@@ -312,36 +346,48 @@ position: relative;
     padding-top: 14px;
     margin-top: 5px;
 }
+
 #cinco .cita-personaje p {
     font-size: 14px;
-    color: #e8d8c7;}
+    color: #e8d8c7;
+}
+
 /*Andyy*/
 #seis .flip-back {
     background: #171717;
     padding: 18px;
-    gap: 9px;}
+    gap: 9px;
+}
+
 #seis .flip-back .nombre-personaje {
     font-size: 21px;
-    letter-spacing: 1px;}
+    letter-spacing: 1px;
+}
 
 #seis .flip-back .nombre-actor {
-    color: #c9a7d8; }
+    color: #c9a7d8;
+}
 
 #seis .flip-back .temporada {
-    letter-spacing: 2px;}
+    letter-spacing: 2px;
+}
+
 #seis .flip-back .descripcion {
     font-size: 12px;
     line-height: 1.5;
 }
+
 #seis .cita-personaje {
     border: 1px solid #c9a7d8;
     padding: 10px 5px;
     margin-top: 5px;
 }
+
 #seis .cita-personaje p {
     font-size: 14px;
     color: #c9a7d8;
 }
+
 /*Erin*/
 #siete .flip-back {
     background: #24221b;
@@ -378,6 +424,7 @@ position: relative;
     color: #e5cf83;
     line-height: 1.5;
 }
+
 /*Kelly*/
 #ocho .flip-back {
     background: #2b1021;
@@ -403,53 +450,68 @@ position: relative;
     font-size: 12px;
     line-height: 1.5;
 }
+
 #ocho .cita-personaje {
     border: 2px solid #ff83bd;
     padding: 12px 7px;
     margin-top: 6px;
-    transform: rotate(-1deg);}
+    transform: rotate(-1deg);
+}
 
 #ocho .cita-personaje p {
     font-size: 13px;
     color: #ffacd1;
     font-weight: bold;
-    line-height: 1.5;}
+    line-height: 1.5;
+}
+
 #ocho .cita-personaje span {
     color: #f5b4d3;
 }
+
 /*Ryan*/
 #nueve .flip-back {
     background: #111820;
     padding: 18px;
     gap: 10px;
 }
+
 #nueve .flip-back .nombre-personaje {
     font-size: 22px;
     letter-spacing: 2px;
     color: #8eb9d9;
 }
+
 #nueve .flip-back .nombre-actor {
     color: #aab8c4;
 }
+
 #nueve .flip-back .temporada {
     letter-spacing: 2px;
 }
+
 #nueve .flip-back .descripcion {
     font-size: 12px;
     line-height: 1.6;
 }
+
 #nueve .cita-personaje {
     border-top: 1px solid #8eb9d9;
     border-bottom: 1px solid #8eb9d9;
     padding: 12px 5px;
-    margin-top: 8px;}
+    margin-top: 8px;
+}
+
 #nueve .cita-personaje p {
     font-size: 14px;
     color: #8eb9d9;
-    font-style: italic;}
+    font-style: italic;
+}
+
 #nueve .cita-personaje span {
     color: #aab8c4;
 }
+
 /*Oscar*/
 #diez .flip-back .descripcion {
     font-size: 12px;
@@ -470,8 +532,9 @@ position: relative;
 
 #diez .cita-personaje span,
 #diez .cita-personaje small {
-    text-align: right;}
-    
+    text-align: right;
+}
+
 /*kEVIn*/
 #once .flip-back {
     background: #302017;
@@ -514,6 +577,7 @@ position: relative;
 #once .cita-personaje span {
     color: #d8c0a5;
 }
+
 /*Stanley*/
 #doce .flip-back {
     background: #291b1b;
@@ -557,6 +621,7 @@ position: relative;
 #doce .cita-personaje span {
     color: #d5b7ad;
 }
+
 /*Phyllus*/
 #trece .flip-back {
     background: #302124;
@@ -567,75 +632,100 @@ position: relative;
 #trece .flip-back .nombre-personaje {
     font-size: 21px;
     letter-spacing: 1px;
-    color: #d9a9b4; }
+    color: #d9a9b4;
+}
 
 #trece .flip-back .nombre-actor {
-    color: #dfc5c8;}
+    color: #dfc5c8;
+}
+
 #trece .flip-back .temporada {
-    letter-spacing: 2px;}
+    letter-spacing: 2px;
+}
+
 #trece .flip-back .descripcion {
     font-size: 12px;
     line-height: 1.6;
 }
+
 #trece .cita-personaje {
     border-left: 2px solid #d9a9b4;
     padding: 10px 12px;
     margin-top: 8px;
     text-align: left;
 }
+
 #trece .cita-personaje p {
     font-size: 13px;
     color: #e5b9c3;
-    line-height: 1.5;}
+    line-height: 1.5;
+}
+
 #trece .cita-personaje span,
 #trece .cita-personaje small {
     text-align: right;
 }
+
 /*Merediht*/
 #catorce .flip-back {
     background: #211619;
     padding: 18px;
     gap: 9px;
 }
+
 #catorce .flip-back .nombre-personaje {
     font-size: 21px;
     letter-spacing: 1px;
     color: #d66b6b;
 }
+
 #catorce .flip-back .nombre-actor {
     color: #c9a5a5;
 }
+
 #catorce .flip-back .temporada {
-    letter-spacing: 2px;}
+    letter-spacing: 2px;
+}
+
 #catorce .flip-back .descripcion {
     font-size: 12px;
-    line-height: 1.5; }
+    line-height: 1.5;
+}
+
 #catorce .cita-personaje {
     border: 1px dashed #d66b6b;
     padding: 10px 7px;
-    margin-top: 6px;  }
+    margin-top: 6px;
+}
+
 #catorce .cita-personaje p {
     font-size: 12px;
     color: #e18a8a;
     line-height: 1.5;
-    font-style: italic; }
+    font-style: italic;
+}
+
 #catorce .cita-personaje span {
     color: #c9a5a5;
 }
+
 /*Creed*/
 #quince .flip-back {
     background: #1b2119;
     padding: 18px;
     gap: 10px;
 }
+
 #quince .flip-back .nombre-personaje {
     font-size: 21px;
     letter-spacing: 1px;
-    color: #a5b77b; 
+    color: #a5b77b;
 }
 
 #quince .flip-back .nombre-actor {
-    color: #b9c1a7; }
+    color: #b9c1a7;
+}
+
 #quince .flip-back .temporada {
     letter-spacing: 2px;
 }
@@ -644,54 +734,69 @@ position: relative;
     font-size: 12px;
     line-height: 1.5;
 }
+
 #quince .cita-personaje {
     border: 1px dashed #a5b77b;
     padding: 11px 8px;
     margin-top: 6px;
     transform: rotate(1deg);
 }
+
 #quince .cita-personaje p {
     font-size: 13px;
     color: #c0d18e;
     line-height: 1.5;
-    font-style: italic;}
+    font-style: italic;
+}
+
 #quince .cita-personaje span {
     color: #b9c1a7;
 }
+
 /*Darrl*/
 #dieciseis .flip-back {
     background: #17272c;
     padding: 18px;
-    gap: 10px;}
+    gap: 10px;
+}
 
 #dieciseis .flip-back .nombre-personaje {
     font-size: 21px;
     letter-spacing: 1px;
-    color: #e39b65;}
+    color: #e39b65;
+}
 
 #dieciseis .flip-back .nombre-actor {
-    color: #b6c7c9;}
+    color: #b6c7c9;
+}
 
 #dieciseis .flip-back .temporada {
-    letter-spacing: 2px;}
+    letter-spacing: 2px;
+}
 
 #dieciseis .flip-back .descripcion {
     font-size: 12px;
-    line-height: 1.6;}
+    line-height: 1.6;
+}
 
 #dieciseis .cita-personaje {
     border-left: 3px solid #e39b65;
     padding: 10px 12px;
     margin-top: 8px;
-    text-align: left;}
+    text-align: left;
+}
+
 #dieciseis .cita-personaje p {
     font-size: 13px;
     color: #eab184;
-    line-height: 1.5;}
+    line-height: 1.5;
+}
+
 #dieciseis .cita-personaje span,
 #dieciseis .cita-personaje small {
     text-align: right;
 }
+
 /*TOBY*/
 #diecisiete .flip-back {
     background: #252b30;
@@ -711,27 +816,33 @@ position: relative;
 
 #diecisiete .flip-back .temporada {
     letter-spacing: 2px;
-    color: #9ba8af;}
+    color: #9ba8af;
+}
 
 #diecisiete .flip-back .descripcion {
     font-size: 12px;
-    line-height: 1.6;}
+    line-height: 1.6;
+}
 
 #diecisiete .cita-personaje {
     border: 1px solid #788b96;
     background: #303a41;
     padding: 12px 8px;
-    margin-top: 8px;}
+    margin-top: 8px;
+}
 
 #diecisiete .cita-personaje p {
     font-size: 13px;
     color: #c2d0d7;
     line-height: 1.5;
-    font-style: italic;}
+    font-style: italic;
+}
+
 #diecisiete .cita-personaje span,
 #diecisiete .cita-personaje small {
     color: #aab5bb;
 }
+
 .video-musical {
     aspect-ratio: 16/9;
 }
